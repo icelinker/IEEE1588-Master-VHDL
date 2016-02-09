@@ -1,0 +1,13 @@
+Font_Mem.mif
+Packet_Definition.mif
+TB_u1588_slave_isim_beh1.wdb
+_xmsgs/
+fuse.xmsgs
+fuseRelaunch.cmd
+ipcore_dir/
+iseconfig/
+log.tmp
+par_usage_statistics.html
+tx_packets_master.output
+vault_bitgen.xwbt
+vault_guide.ncd
