@@ -11,10 +11,6 @@ NMAE Parser
 ```
 git clone https://github.com/craighaywood/VHDL-NMEA-Parser
 ```
-UART Module
-```
-git clone https://github.com/craighaywood/SimpleUART_VHDL
-```
 1588 Master IP Core  
 - Please contact
 
