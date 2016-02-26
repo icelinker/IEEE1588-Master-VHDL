@@ -7,7 +7,7 @@ Provide a simple, IEEE1588 Master with constant latency timestamp functionality
 ## Requires
 
 ### Firmware
-NMAE Parser
+NMEA Parser
 ```
 git clone https://github.com/craighaywood/VHDL-NMEA-Parser
 ```
