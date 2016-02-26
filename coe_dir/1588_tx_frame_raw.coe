@@ -1,0 +1,324 @@
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+00D5 # Preamble
+0001 # Destination MAC MMMSB
+0000 # Destination MAC MMSB
+005e # Destination MAC MSB
+0000 # Destination MAC LSB
+0001 # Destination MAC LLSB
+0081 # Destination MAC LLLSB
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+0008 # Packet Type
+0000 # Packet Type
+0045 # Version/Header Length
+0000 # DSF
+0000 # Filler
+0048 # Length
+0200 # IP Indentification MSB
+0100 # IP Indentification LSB
+0040 # Flags
+0000 # Filler
+0001 # Filler
+0011 # Protocol (UDP)
+1400 # IP Checksum
+1300 # IP Checksum
+0600 # Source IP MMSB
+0500 # Source IP MSB
+0400 # Source IP LSB
+0300 # Source IP LLSB
+00E0 # Filler
+0000 # Filler
+0001 # Filler
+0700 # Destination IP LSB
+0001 # UDP Source Port MSB
+2200 # UDP Source Port LSB
+0001 # UDP Dest Port MSB
+2200 # UDP Dest Port LSB
+0000 # Filler
+0034 # Filler
+0000 # UDP Checksum
+0000 # UDP Checksum
+1F00 # Message Type
+0002 # PTP Version
+0000 # Filler
+002C # Length
+0000 # Filler
+0000 # Filler
+2000 # Flags
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+00FF # Filler
+00FE # Filler
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+1100 # Source Port ID MSB
+1000 # Source Port ID LSB
+0F00 # SequenceID MSB
+0E00 # SequenceID LSB
+2100 # Control
+0000 # Log message period
+1A00 # Timestamp sec
+1900 # Timestamp sec
+1800 # Timestamp sec
+1700 # Timestamp sec
+1600 # Timestamp sec
+1500 # Timestamp sec
+1E00 # Timestamp nsec
+1D00 # Timestamp nsec
+1C00 # Timestamp nsec
+1B00 # Timestamp nsec
+1200 # CRC
+1200 # CRC
+1200 # CRC
+1200 # CRC
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+00D5 # Preamble
+0001 # Destination MAC MMMSB
+0000 # Destination MAC MMSB
+005e # Destination MAC MSB
+0000 # Destination MAC LSB
+0001 # Destination MAC LLSB
+0081 # Destination MAC LLLSB
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+0008 # Packet Type
+0000 # Packet Type
+0045 # Version/Header Length
+0000 # DSF
+0000 # Filler
+0052 # Length
+0200 # IP Indentification MSB
+0100 # IP Indentification LSB
+0040 # Flags
+0000 # Filler
+0001 # Filler
+0011 # Protocol (UDP)
+1400 # IP Checksum
+1300 # IP Checksum
+0600 # Source IP MMSB
+0500 # Source IP MSB
+0400 # Source IP LSB
+0300 # Source IP LLSB
+00E0 # Filler
+0000 # Filler
+0001 # Filler
+0700 # Destination IP LSB
+0001 # UDP Source Port MSB
+2200 # UDP Source Port LSB
+0001 # UDP Dest Port MSB
+2200 # UDP Dest Port LSB
+0000 # Filler
+003E # Filler
+0000 # UDP Checksum
+0000 # UDP Checksum
+1F00 # Message Type
+0002 # PTP Version
+0000 # Filler
+002C # Length
+0000 # Filler
+0000 # Filler
+2000 # Flags
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+00FF # Filler
+00FE # Filler
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+1100 # Source Port ID MSB
+1000 # Source Port ID LSB
+3D00 # SequenceID MSB
+3C00 # SequenceID LSB
+0003 # Control
+0000 # Log message period
+2A00 # Slave Timestamp sec
+2900 # Slave Timestamp sec
+2800 # Slave Timestamp sec
+2700 # Slave Timestamp sec
+2600 # Slave Timestamp sec
+2500 # Slave Timestamp sec
+2E00 # Slave Timestamp nsec
+2D00 # Slave Timestamp nsec
+2C00 # Slave Timestamp nsec
+2B00 # Slave Timestamp nsec
+3400 # Slave MAC
+3300 # Slave MAC
+3200 # Slave MAC
+00FF # Filler
+00FE # Filler
+3100 # Slave MAC
+3000 # Slave MAC
+2F00 # Slave MAC
+1100 # Port ID
+1000 # Port ID
+1200 # CRC
+1200 # CRC
+1200 # CRC
+1200 # CRC
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+0055 # Preamble
+00D5 # Preamble
+0001 # Destination MAC MMMSB
+0000 # Destination MAC MMSB
+005e # Destination MAC MSB
+0000 # Destination MAC LSB
+0001 # Destination MAC LLSB
+0081 # Destination MAC LLLSB
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+0008 # Packet Type
+0000 # Packet Type
+0045 # Version/Header Length
+0000 # DSF
+0000 # Filler
+005C # Length
+0200 # IP Indentification MSB
+0100 # IP Indentification LSB
+0040 # Flags
+0000 # Filler
+0001 # Filler
+0011 # Protocol (UDP)
+1400 # IP Checksum
+1300 # IP Checksum
+0600 # Source IP MMSB
+0500 # Source IP MSB
+0400 # Source IP LSB
+0300 # Source IP LLSB
+00E0 # Filler
+0000 # Filler
+0001 # Filler
+0700 # Destination IP LSB
+0001 # UDP Source Port MSB
+2200 # UDP Source Port LSB
+0001 # UDP Dest Port MSB
+2200 # UDP Dest Port LSB
+0000 # Packet Length
+0048 # Packet Length
+0000 # UDP Checksum
+0000 # UDP Checksum
+008B # Announce Message
+0002 # PTP Version
+0000 # Filler
+0040 # Length
+0000 # Filler
+0000 # Filler
+2000 # Flags
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0000 # Filler
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+00FF # Filler
+00FE # Filler
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+1100 # Source Port ID MSB
+1000 # Source Port ID LSB
+2400 # SequenceID MSB
+2300 # SequenceID LSB
+0005 # Control
+0001 # Log message period
+1A00 # Timestamp sec
+1900 # Timestamp sec
+1800 # Timestamp sec
+1700 # Timestamp sec
+1600 # Timestamp sec
+1500 # Timestamp sec
+1E00 # Timestamp nsec
+1D00 # Timestamp nsec
+1C00 # Timestamp nsec
+1B00 # Timestamp nsec
+0000 # Origin Current UTC Offset MSB
+0000 # Origin Current UTC Offset LSB
+0000 # Priority1 MSB
+3900 # Priority1 LSB
+3500 # Grandmaster Clock Class
+3600 # Grandmaster Clock Accuracy
+3800 # Grandmaster clock Variance MSB
+3700 # Grandmaster clock Variance LSB
+3A00 # Priority2 LSB
+0D00 # Source MAC MMMSB
+0C00 # Source MAC MMSB
+0B00 # Source MAC MSB
+00FF # Filler
+00FE # Filler
+0A00 # Source MAC LSB
+0900 # Source MAC LLSB
+0800 # Source MAC LLLSB
+0000 # Local Steps Removed
+0000 # Local Steps Removed
+3B00 # TimeSource
+1200 # CRC
+1200 # CRC
+1200 # CRC
+1200 # CRC

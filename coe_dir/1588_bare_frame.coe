@@ -1,0 +1,32 @@
+1 		# Multicast MAC MSB
+0		# etc
+94		# etc
+0		# etc
+1		# etc
+129		# Multicast MAC LSB
+780 	# Move to address 12
+8 		# IP Packet Type MSB
+0 		# IP Packet Type LSB
+576		# IP Version (Only compare top nibble)
+791 	# Move to address 23
+17		# UDP Protocol
+798 	# Move to address 30
+224 	# Multicast IP MSB
+0 		# etc
+1 		# etc
+1022	# End MAC/IP check
+1		# Source port MSB
+319		# Source port LSB
+1		# Destination port MSB
+319		# Destination port LSB
+1023	# End Veracity check
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding
+0 		# Padding

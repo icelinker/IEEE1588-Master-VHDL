@@ -16,39 +16,79 @@
 
   <files>
     <file xil_pn:name="CLK_Mod.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
     </file>
     <file xil_pn:name="led_mod.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
     </file>
     <file xil_pn:name="vault.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="14"/>
     </file>
     <file xil_pn:name="SaturnSpartan6ModuleV3.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../16x2_lcd_controller/trunk/lcd16x2_ctrl.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../NMEA/nmea_parser.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="10"/>
+    </file>
+    <file xil_pn:name="../NMEA/TB_nmea_parser.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="424"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="424"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="424"/>
+    </file>
+    <file xil_pn:name="../LCD_Display_16x2/lcd16x2_ctrl.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="Implementation" xil_pn:seqID="12"/>
+    </file>
+    <file xil_pn:name="../NMEA/nmea_lcd_display_ctrl.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="11"/>
+    </file>
+    <file xil_pn:name="../NMEA/TB_nmea_lcd_display_ctrl.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="552"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="552"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="552"/>
+    </file>
+    <file xil_pn:name="../NMEA/utc_to_ptp_timestamp.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="TB_utc_to_ptp_timestamp.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="66"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="66"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="66"/>
+    </file>
+    <file xil_pn:name="../../1588_master/u1588_master.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="13"/>
+    </file>
+    <file xil_pn:name="../../1588_master/checksum_calc2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
+    </file>
+    <file xil_pn:name="../../1588_master/Pulse_Sync.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
+    </file>
+    <file xil_pn:name="../../1588_master/CRC32_calc2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
+    </file>
+    <file xil_pn:name="../../1588_master/lfsr32_mod.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
-    <file xil_pn:name="TB_lcd_ctrl.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="../../1588_master/TB_u1588_master.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="69"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="69"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="69"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="108"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="108"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="108"/>
     </file>
-    <file xil_pn:name="../uart/source/uart.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
-    </file>
-    <file xil_pn:name="../NMEA/nmea_parser.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="TDP_RAM.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="411"/>
-    </file>
-    <file xil_pn:name="../NMEA/TB_nmea_parser.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="424"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
   </files>
 
