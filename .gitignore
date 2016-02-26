@@ -5,6 +5,7 @@ _xmsgs/
 fuse.xmsgs
 fuseRelaunch.cmd
 ipcore_dir/
+coe_dir/coe_file_gen
 iseconfig/
 log.tmp
 par_usage_statistics.html
